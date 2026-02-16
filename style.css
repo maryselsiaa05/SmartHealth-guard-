@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e2a38;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#dashboard {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1e2a38;
+  color: white;
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+}
+
+.left-panel {
+  width: 45%;
+  padding-right: 20px;
+}
+
+.right-panel {
+  width: 55%;
+  text-align: center;
+}
+
+.range-card {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+.ecg-grid {
+  background: #000;
+  height: 180px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.ecg-grid::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#222 1px, transparent 1px),
+                    linear-gradient(90deg, #222 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.readings h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 25px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

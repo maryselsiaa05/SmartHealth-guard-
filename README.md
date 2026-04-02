@@ -1,0 +1,1 @@
+This project is a smart heartbeat monitoring system that simulates a real-time cardiac monitoring environment. It displays heart rate (BPM), ECG waveform, and health status using a professional web dashboard.
